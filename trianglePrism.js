@@ -1,4 +1,4 @@
-//Created in the p5.js editor https://editor.p5js.org/
+//Created in the p5.js editor: editor.p5js.org
 
 let grid= 50;
 
