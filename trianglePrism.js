@@ -20,13 +20,13 @@ function draw(){
   }
 }
 
-//use arrow keys to adjust transparency/alpha of triangles
-//press up for more transparency and down for more opacity
+//Use arrow keys to adjust transparency/alpha of triangles
+//Press up for more transparency and down for more opacity
 function keyPressed(){
   if(keyCode === UP_ARROW){
     n= n-5;
   } else if (keyCode === DOWN_ARROW){
     n= n+5;
   }
-  print("transparency: "+ n);
+  print("Transparency: "+ n);
 }
