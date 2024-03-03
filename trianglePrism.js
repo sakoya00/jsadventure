@@ -12,14 +12,16 @@ function draw(){
   stroke(10);
   strokeWeight(2);
   background(0);
-  for (i=0; i< this.width+grid; i+=grid){
-    for (j=0; j<this.height+grid; j+=grid){
+  for (i=0; i<width+grid; i+=grid){
+    for (j=0; j<height+grid; j+=grid){
       fill(i,j,100,n);
       triangle(i,j, i+grid,j-grid, i-grid, j-grid);
     }
   }
 }
 
+//use arrow keys to adjust transparency/alpha of triangles
+//press up for more transparency and down for more opacity
 function keyPressed(){
   if(keyCode === UP_ARROW){
     n= n-5;
